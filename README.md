@@ -165,7 +165,7 @@ churn patterns in a telecommunications dataset.
 
 #### Dashboard Preview
 
-![Customer Churn Dashboard](Level-3-Advanced/Task-2-Power-BI-Dashboard/CHURN ANALYSIS DASHBOARD.jpg)
+[![Customer Churn Dashboard](Level-3-Advanced/Task-2-Power-BI-Dashboard/CHURN%20ANALYSIS%20DASHBOARD.jpg)](Level-3-Advanced/Task-2-Power-BI-Dashboard/CHURN%20ANALYSIS%20DASHBOARD.jpg)
 
 **Tools:** Power BI, Power Query, DAX
 
