@@ -243,3 +243,23 @@ codveda-data-analytics-internship/
 └── Level-3-Advanced/
     ├── Task-2-Power-BI-Dashboard/
     └── Task-3-NLP-Sentiment-Analysis/
+# Skills Demonstrated
+This internship project demonstrates practical experience in:
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis
+- Statistical Analysis
+- Data Visualization
+- Linear Regression
+- Model Evaluation
+- Time Series Analysis
+- Natural Language Processing
+- Sentiment Analysis
+- Business Intelligence
+- Dashboard Development
+- DAX Measures
+- Data Storytelling
+
+Author
+Ali Ahmad Khanbeigi
+Data Analytics | Business Intelligence | Python | SQL | Power BI
