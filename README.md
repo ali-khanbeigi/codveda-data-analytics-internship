@@ -28,14 +28,11 @@ intelligence dashboard development.
 
 ---
 
-# Completed Projects
-
 ## Level 1 – Basic
 
 ### Task 1: Data Cleaning and Preprocessing
 
-The objective of this task was to prepare a raw dataset for further
-analysis.
+The objective of this task was to prepare a raw dataset for further analysis.
 
 Main steps included:
 
@@ -65,27 +62,25 @@ The analysis included:
 - Correlation analysis
 - Correlation heatmap
 
-### Key Findings
+#### Key Findings
 
-- Petal measurements showed stronger separation between flower species
-  than sepal measurements.
+- Petal measurements showed stronger separation between flower species than sepal measurements.
 - Setosa generally had the smallest petal dimensions.
 - Virginica generally had the largest petal dimensions.
-- Petal length and petal width showed a very strong positive correlation
-  of approximately **0.96**.
+- Petal length and petal width showed a very strong positive correlation of approximately **0.96**.
 
 **Tools:** Python, Pandas, Matplotlib, Seaborn
 
 ---
 
-# Level 2 – Intermediate
+## Level 2 – Intermediate
 
-## Task 1: Regression Analysis – House Prices
+### Task 1: Regression Analysis – House Prices
 
-A simple linear regression model was developed to analyze the
-relationship between the average number of rooms and median house value.
+A simple linear regression model was developed to analyze the relationship
+between the average number of rooms and median house value.
 
-### Model
+#### Model
 
 **Independent Variable:** Average Number of Rooms (`RM`)  
 **Target Variable:** Median House Value (`MEDV`)
@@ -93,25 +88,24 @@ relationship between the average number of rooms and median house value.
 The dataset was divided into training and testing sets before fitting a
 Linear Regression model.
 
-### Model Results
+#### Model Results
 
 - Regression Coefficient: **9.35**
 - R² Score: approximately **0.37**
 - Mean Squared Error: approximately **46.14**
 - RMSE: approximately **6.79**
 
-### Key Finding
+#### Key Finding
 
 The model showed a positive relationship between the average number of
 rooms and house value. However, the R² score indicates that room count
-alone is not sufficient to explain most of the variation in house
-prices.
+alone is not sufficient to explain most of the variation in house prices.
 
 **Tools:** Python, Pandas, Scikit-learn, Matplotlib
 
 ---
 
-## Task 2: Time Series Analysis – Apple Stock Price
+### Task 2: Time Series Analysis – Apple Stock Price
 
 Time series analysis was performed on historical Apple stock price data.
 
@@ -125,7 +119,7 @@ The analysis included:
 - Monthly resampling
 - Seasonal decomposition
 
-### Key Findings
+#### Key Findings
 
 The stock price demonstrated an overall upward trend during the analyzed
 period, while moving averages helped smooth short-term fluctuations.
@@ -140,21 +134,21 @@ Seasonal decomposition was also used to separate the series into:
 
 ---
 
-# Level 3 – Advanced
+## Level 3 – Advanced
 
-## Task 2: Customer Churn Analysis Dashboard – Power BI
+### Task 2: Customer Churn Analysis Dashboard – Power BI
 
 An interactive Power BI dashboard was developed to analyze customer
 churn patterns in a telecommunications dataset.
 
-### Dashboard KPIs
+#### Dashboard KPIs
 
 - **Total Customers:** 3,333
 - **Churned Customers:** 483
 - **Overall Churn Rate:** 14.5%
 - **Average Customer Service Calls:** 1.56
 
-### Dashboard Visualizations
+#### Dashboard Visualizations
 
 - Churn Rate by International Plan
 - Churn Rate by Customer Service Calls
@@ -162,18 +156,14 @@ churn patterns in a telecommunications dataset.
 - Churn Rate by State
 - Interactive slicers for customer segmentation
 
-### Key Insights
+#### Key Insights
 
-- Customers with an international plan had a significantly higher churn
-  rate: **42.4% vs 11.5%**.
-- Customer churn increased sharply after approximately **4 or more
-  customer service calls**.
-- Customers without a voice mail plan showed a higher churn rate
-  (**16.7%**) compared with customers with a voice mail plan
-  (**8.7%**).
+- Customers with an international plan had a significantly higher churn rate: **42.4% vs 11.5%**.
+- Customer churn increased sharply after approximately **4 or more customer service calls**.
+- Customers without a voice mail plan showed a higher churn rate (**16.7%**) compared with customers with a voice mail plan (**8.7%**).
 - Churn rates varied across different U.S. states.
 
-### Dashboard Preview
+#### Dashboard Preview
 
 ![Customer Churn Dashboard](Level-3-Advanced/Task-2-Power-BI-Dashboard/dashboard_preview.png)
 
@@ -181,12 +171,12 @@ churn patterns in a telecommunications dataset.
 
 ---
 
-## Task 3: NLP Sentiment Analysis
+### Task 3: NLP Sentiment Analysis
 
 Natural Language Processing techniques were applied to a social media
 text dataset to analyze sentiment and word usage.
 
-### Text Preprocessing
+#### Text Preprocessing
 
 The preprocessing pipeline included:
 
@@ -203,13 +193,13 @@ classified into three categories:
 - Neutral
 - Negative
 
-### Sentiment Results
+#### Sentiment Results
 
 - **Neutral:** 341
 - **Positive:** 272
 - **Negative:** 119
 
-### Additional Analysis
+#### Additional Analysis
 
 - Word frequency analysis
 - Top frequently used words
@@ -223,13 +213,12 @@ Frequently occurring words included terms such as:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 codveda-data-analytics-internship/
 │
 ├── README.md
-│
 ├── requirements.txt
 │
 ├── Level-1-Basic/
@@ -243,8 +232,14 @@ codveda-data-analytics-internship/
 └── Level-3-Advanced/
     ├── Task-2-Power-BI-Dashboard/
     └── Task-3-NLP-Sentiment-Analysis/
-# Skills Demonstrated
+```
+
+---
+
+## Skills Demonstrated
+
 This internship project demonstrates practical experience in:
+
 - Data Cleaning
 - Data Preprocessing
 - Exploratory Data Analysis
@@ -260,6 +255,10 @@ This internship project demonstrates practical experience in:
 - DAX Measures
 - Data Storytelling
 
-Author
-Ali Ahmad Khanbeigi
+---
+
+## Author
+
+**Ali Ahmad Khanbeigi**
+
 Data Analytics | Business Intelligence | Python | SQL | Power BI
